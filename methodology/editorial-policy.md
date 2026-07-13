@@ -13,6 +13,45 @@ Chaque publication quotidienne couvre deux volets distincts :
 
 Ces deux volets sont volontairement séparés : le premier porte sur l'IA en tant que sujet, le second sur l'IA en tant qu'outil au service d'autres sciences.
 
+## Catégories surveillées
+
+### Actualités sur l'intelligence artificielle
+
+- Nouveaux modèles d'intelligence artificielle
+- Multimodalité
+- Agents IA
+- Automatisation
+- API et outils de développement
+- Claude Code, GitHub et programmation assistée
+- Adoption de l'IA en entreprise
+- Transformation numérique
+- Gestion de projet IA
+- Réglementation et AI Act
+- Sécurité, gouvernance et conformité
+- Open source
+- Robotique
+- Infrastructures, centres de données et semi-conducteurs
+- Investissements, partenariats et acquisitions importantes
+
+### Recherches et découvertes réalisées grâce à l'IA
+
+- Santé et médecine
+- Biologie
+- Génomique
+- Découverte de médicaments
+- Matériaux
+- Énergie
+- Climat et environnement
+- Agriculture
+- Mathématiques
+- Physique
+- Chimie
+- Astronomie et spatial
+- Archéologie
+- Robotique scientifique
+
+Ces catégories encadrent la recherche et la sélection ; elles sont reprises et suivies dans [`data/topic-index.csv`](../data/topic-index.csv). La liste des critères appliqués à la sélection au sein de ces catégories est détaillée dans [scoring-method.md](scoring-method.md).
+
 ## Ce que la veille ne fait pas
 
 - Elle ne fait pas de spéculation prospective non sourcée (« l'IA pourrait bientôt... » sans fondement).
@@ -31,7 +70,7 @@ Ces deux volets sont volontairement séparés : le premier porte sur l'IA en tan
 
 | Rapport | Fréquence | Contenu |
 |---|---|---|
-| Quotidien | Chaque jour ouvré | 5 actualités IA + 5 découvertes assistées par IA |
+| Quotidien | Chaque jour | 5 actualités IA + 5 découvertes assistées par IA |
 | Hebdomadaire | Chaque semaine | Synthèse et mise en perspective des rapports quotidiens |
 | Mensuel | Chaque mois | Tendances de fond, bilan du mois, sujets structurants |
 

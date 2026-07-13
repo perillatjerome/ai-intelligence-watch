@@ -1,7 +1,5 @@
 # ai-intelligence-watch
 
-Système de veille automatisée, professionnelle et sourcée sur l'intelligence artificielle et sur les découvertes scientifiques réalisées grâce à l'intelligence artificielle.
-
 ## Objectif
 
 Publier régulièrement une synthèse factuelle et vérifiée de l'actualité de l'intelligence artificielle, en distinguant deux volets complémentaires :

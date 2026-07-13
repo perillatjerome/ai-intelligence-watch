@@ -26,14 +26,52 @@ Chaque élément candidat est évalué selon les critères suivants (score quali
 
 ## Catégories thématiques surveillées
 
-- Modèles et systèmes d'IA (nouveaux modèles, mises à jour majeures, benchmarks)
-- Entreprises et acteurs industriels (produits, levées de fonds, partenariats)
-- Recherche fondamentale en IA (nouvelles architectures, méthodes d'entraînement)
-- Réglementation et politiques publiques
-- Applications sectorielles de l'IA (santé, éducation, industrie, etc.)
-- Sciences assistées par l'IA (biologie, physique, mathématiques, climat, médecine, matériaux, etc.)
+### Actualités sur l'intelligence artificielle
 
-Le détail de ces catégories est également suivi dans [`data/topic-index.csv`](../data/topic-index.csv).
+- Nouveaux modèles d'intelligence artificielle
+- Multimodalité
+- Agents IA
+- Automatisation
+- API et outils de développement
+- Claude Code, GitHub et programmation assistée
+- Adoption de l'IA en entreprise
+- Transformation numérique
+- Gestion de projet IA
+- Réglementation et AI Act
+- Sécurité, gouvernance et conformité
+- Open source
+- Robotique
+- Infrastructures, centres de données et semi-conducteurs
+- Investissements, partenariats et acquisitions importantes
+
+### Recherches et découvertes réalisées grâce à l'IA
+
+- Santé et médecine
+- Biologie
+- Génomique
+- Découverte de médicaments
+- Matériaux
+- Énergie
+- Climat et environnement
+- Agriculture
+- Mathématiques
+- Physique
+- Chimie
+- Astronomie et spatial
+- Archéologie
+- Robotique scientifique
+
+Le détail de ces catégories est également suivi dans [`data/topic-index.csv`](../data/topic-index.csv). Voir aussi [editorial-policy.md](editorial-policy.md) pour la présentation éditoriale de ces catégories.
+
+## Règles de diversité
+
+Au-delà du score qualitatif par élément, la sélection des 5 éléments par catégorie respecte les règles de diversité suivantes :
+
+- Ne pas sélectionner cinq informations provenant toutes de la même entreprise.
+- Ne pas sélectionner cinq informations appartenant toutes à la même catégorie thématique.
+- Privilégier une diversité de secteurs, d'acteurs et de zones géographiques.
+- Une recherche ne doit pas être sélectionnée simplement parce qu'elle mentionne l'intelligence artificielle : l'IA doit jouer un rôle substantiel dans la méthode ou le résultat, pas une mention accessoire.
+- Ne retenir une information que si elle apporte une nouveauté réelle par rapport à ce qui a déjà été publié ou à ce qui est déjà connu du domaine.
 
 ## Non-automatisation du jugement final
 

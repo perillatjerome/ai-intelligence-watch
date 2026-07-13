@@ -1,1 +1,1 @@
-id,date_publication,date_evenement,categorie,titre,source,url,type_source,prepublication,confirmation_croisee,rapport
+id,date_rapport,type_information,categorie,domaine,titre,organisation_principale,source_principale,url_principale,url_secondaire,date_publication,date_evenement,niveau_maturite,note_importance,prepublication,confirmation_croisee,statut_verification,rapport
