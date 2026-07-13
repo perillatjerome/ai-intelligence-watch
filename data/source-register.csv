@@ -1,1 +1,20 @@
 nom_source,url,type,categorie,niveau_fiabilite,date_ajout,notes
+OpenAI (news),https://openai.com/index/,primaire,communique officiel entreprise,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Mistral AI (news),https://mistral.ai/news/,primaire,communique officiel entreprise,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Commission europeenne,https://commission.europa.eu/news-and-media/,primaire,communique officiel institutionnel,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+General Atlantic,https://www.generalatlantic.com/media-article/,primaire,communique officiel investisseur,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Insilico Medicine,https://insilico.com/news/,primaire,communique officiel entreprise,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Nature,https://www.nature.com/,primaire,revue a comite de lecture,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Physical Review Research / Physical Review D (APS),https://journals.aps.org/,primaire,revue a comite de lecture,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Communications Chemistry (Springer Nature),https://www.nature.com/commschem/,primaire,revue a comite de lecture,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+GSI/FAIR,https://www.gsi.de/en/start/news/,primaire,communique officiel institut de recherche,eleve,2026-07-13,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+CNBC,https://www.cnbc.com/,presse specialisee,presse economique/tech,moyen-eleve,2026-07-13,reprise de documents judiciaires - allegations d'une partie non tranchees
+TechCrunch,https://techcrunch.com/,presse specialisee,presse tech,moyen-eleve,2026-07-13,
+Bloomberg,https://www.bloomberg.com/,presse specialisee,presse economique,eleve,2026-07-13,
+HPCwire/AIwire,https://www.hpcwire.com/,presse specialisee,presse tech specialisee IA/HPC,moyen,2026-07-13,
+TechTimes,https://www.techtimes.com/,presse specialisee,presse tech,moyen,2026-07-13,
+BioSpace,https://www.biospace.com/,presse specialisee,presse specialisee biotech,moyen,2026-07-13,reprend le communique de l'entreprise - pas une verification independante a proprement parler
+ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
+EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
+phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
+Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
