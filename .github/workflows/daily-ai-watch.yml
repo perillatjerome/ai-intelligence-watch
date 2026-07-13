@@ -1,0 +1,177 @@
+name: Veille IA quotidienne
+
+# --------------------------------------------------------------------------
+# Ce workflow génère automatiquement le rapport quotidien du projet, ouvre
+# une Pull Request, mais NE LA FUSIONNE JAMAIS automatiquement (voir
+# CLAUDE.md). Guide pas à pas : voir la section « Automatisation quotidienne »
+# du README.md.
+# --------------------------------------------------------------------------
+
+on:
+  # GitHub Actions ne comprend que l'heure UTC dans les cron, alors que l'on
+  # veut 08:15 heure de Paris toute l'année. Paris passe de UTC+1 (hiver) à
+  # UTC+2 (été) selon l'heure d'été. On déclare donc DEUX horaires (un pour
+  # chaque saison) et une étape "garde-fou" plus bas n'exécute la suite que
+  # si l'heure locale à Paris est bien 08h au moment du déclenchement.
+  schedule:
+    - cron: "15 6 * * *" # 08:15 heure de Paris en été (UTC+2)
+    - cron: "15 7 * * *" # 08:15 heure de Paris en hiver (UTC+1)
+  # Permet de lancer le workflow à la main depuis l'onglet "Actions" de GitHub.
+  workflow_dispatch: {}
+
+# Empêche deux exécutions de tourner en même temps sur ce workflow (par
+# exemple si quelqu'un lance manuellement pendant l'exécution planifiée).
+concurrency:
+  group: daily-ai-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write # pour pouvoir committer et pousser la nouvelle branche
+  pull-requests: write # pour pouvoir ouvrir la Pull Request
+
+jobs:
+  generate-report:
+    name: Générer le rapport et ouvrir la Pull Request
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Vérifier l'heure locale à Paris (garde-fou été/hiver)
+        id: guard
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Déclenchement manuel : on continue quelle que soit l'heure."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          current_hour="$(TZ=Europe/Paris date +%H)"
+          echo "Heure actuelle à Paris : ${current_hour}h"
+          if [ "$current_hour" = "08" ]; then
+            echo "Il est bien 08h à Paris : on continue."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Il n'est pas 08h à Paris (ce déclenchement planifié correspond à l'autre saison, été/hiver) : on s'arrête ici, c'est normal."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Récupérer le dépôt
+        if: steps.guard.outputs.should_run == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Installer Python
+        if: steps.guard.outputs.should_run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer les dépendances Python
+        if: steps.guard.outputs.should_run == 'true'
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Auto-test du script (sans appel réseau)
+        if: steps.guard.outputs.should_run == 'true'
+        run: |
+          set -euo pipefail
+          echo "Ce test vérifie que le script fonctionne correctement AVANT d'appeler l'API OpenAI."
+          echo "S'il échoue, le problème vient du code du script, pas de l'API ou du réseau."
+          python scripts/generate_daily_report.py --self-test
+
+      - name: Générer le rapport quotidien (appel à l'API OpenAI)
+        id: generate
+        if: steps.guard.outputs.should_run == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # Optionnel : définissez une variable de dépôt OPENAI_MODEL pour changer
+          # de modèle sans modifier ce fichier (Settings > Secrets and variables >
+          # Actions > Variables). Sinon, le script utilise une valeur par défaut.
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: |
+          set -euo pipefail
+          python scripts/generate_daily_report.py
+
+      - name: Créer la branche, committer et pousser les fichiers générés
+        id: commit
+        if: steps.guard.outputs.should_run == 'true' && steps.generate.outputs.changed == 'true'
+        env:
+          BRANCH_NAME: ${{ steps.generate.outputs.branch_name }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          echo "Préparation de la branche $BRANCH_NAME..."
+          git fetch origin "$BRANCH_NAME" 2>/dev/null || true
+          if git rev-parse --verify "origin/$BRANCH_NAME" >/dev/null 2>&1; then
+            git checkout -B "$BRANCH_NAME" "origin/$BRANCH_NAME"
+          else
+            git checkout -B "$BRANCH_NAME"
+          fi
+
+          # On ne committe que les fichiers que le script est censé modifier :
+          # jamais le workflow lui-même, jamais les rapports déjà publiés d'un autre jour.
+          git add reports/daily data/news-index.csv data/topic-index.csv data/source-register.csv
+
+          if git diff --cached --quiet; then
+            echo "Rien à committer (aucun fichier modifié) : arrêt, aucune Pull Request ne sera créée."
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git commit -m "veille: ajout du rapport IA du $(TZ=Europe/Paris date +%Y-%m-%d)"
+          git push -u origin "$BRANCH_NAME"
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Ouvrir la Pull Request (si elle n'existe pas déjà)
+        if: steps.guard.outputs.should_run == 'true' && steps.generate.outputs.changed == 'true' && steps.commit.outputs.committed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: ${{ steps.generate.outputs.branch_name }}
+          PR_TITLE: ${{ steps.generate.outputs.pr_title }}
+          PR_BODY_PATH: ${{ steps.generate.outputs.pr_body_path }}
+        run: |
+          set -euo pipefail
+          existing_pr="$(gh pr list --head "$BRANCH_NAME" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$existing_pr" ]; then
+            echo "Une Pull Request existe déjà pour cette branche : #$existing_pr. On ne la recrée pas."
+            echo "::notice::Pull Request déjà ouverte : #$existing_pr"
+          else
+            gh pr create \
+              --title "$PR_TITLE" \
+              --body-file "$PR_BODY_PATH" \
+              --base main \
+              --head "$BRANCH_NAME"
+            echo "::notice::Nouvelle Pull Request ouverte pour la branche $BRANCH_NAME"
+          fi
+          # Rappel de sécurité : cette Pull Request n'est JAMAIS fusionnée
+          # automatiquement. Un humain doit la relire et cliquer sur "Merge".
+
+      - name: Résumé pour un débutant
+        if: always() && steps.guard.outputs.should_run == 'true'
+        run: |
+          {
+            echo "## Résultat du workflow « Veille IA quotidienne »"
+            echo ""
+            if [ "${{ steps.generate.outputs.changed }}" = "true" ]; then
+              echo "✅ Un nouveau rapport a été généré et une Pull Request a été ouverte (ou existait déjà) sur la branche \`${{ steps.generate.outputs.branch_name }}\`."
+              echo ""
+              echo "Rapport : \`${{ steps.generate.outputs.report_path }}\`"
+              echo ""
+              echo "➡️ Allez dans l'onglet **Pull requests** du dépôt pour la relire et, si tout est correct, la fusionner manuellement."
+            elif [ "${{ job.status }}" = "success" ]; then
+              echo "ℹ️ Le workflow s'est terminé sans créer de nouveau rapport (par exemple parce qu'un rapport existait déjà pour aujourd'hui)."
+            else
+              echo "❌ Le workflow a échoué. Consultez les logs de l'étape « Générer le rapport quotidien » ci-dessus pour le détail de l'erreur."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Rapport de saut (garde-fou été/hiver)
+        if: steps.guard.outputs.should_run != 'true'
+        run: |
+          echo "## Résultat du workflow « Veille IA quotidienne »" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "⏭️ Exécution ignorée : ce déclenchement planifié correspond au mauvais horaire saisonnier (été/hiver). C'est normal, l'autre déclenchement du jour s'exécutera à la bonne heure." >> "$GITHUB_STEP_SUMMARY"
