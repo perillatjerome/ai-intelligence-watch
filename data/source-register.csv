@@ -18,3 +18,13 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Bureau de la gouverneure de New York,https://www.governor.ny.gov/news/,primaire,communique officiel institutionnel,eleve,2026-07-15,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+The Washington Post,https://www.washingtonpost.com/,presse generaliste,presse generaliste de reference,eleve,2026-07-15,
+Administration du cyberespace de Chine (CAC),https://www.cac.gov.cn/,primaire,texte reglementaire officiel,eleve,2026-07-15,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Xinhua/news.cn,https://www.news.cn/,presse specialisee,media d'Etat chinois,moyen,2026-07-15,media d'Etat - utilise en complement du texte reglementaire officiel pas comme source unique
+PR Newswire,https://www.prnewswire.com/,primaire,plateforme de communiques officiels d'entreprise,moyen-eleve,2026-07-15,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Businesswire,https://www.businesswire.com/,primaire,plateforme de communiques officiels d'entreprise,moyen-eleve,2026-07-15,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+South China Morning Post,https://www.scmp.com/,presse specialisee,presse generaliste/economique Asie,moyen-eleve,2026-07-15,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+PNAS,https://www.pnas.org/,primaire,revue a comite de lecture,eleve,2026-07-15,
+GFZ Helmholtz-Zentrum fur Geoforschung,https://www.gfz.de/,primaire,communique officiel institut de recherche,eleve,2026-07-15,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+SiliconANGLE,https://siliconangle.com/,presse specialisee,presse tech,moyen,2026-07-15,
