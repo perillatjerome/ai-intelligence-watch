@@ -18,3 +18,16 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+ASML / GlobeNewswire,https://www.globenewswire.com/news-release/,primaire,communique officiel entreprise / depot reglementaire,eleve,2026-07-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Thinking Machines Lab,https://thinkingmachines.ai/news/,primaire,communique officiel entreprise,eleve,2026-07-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Administration du cyberespace de Chine (CAC),https://www.cac.gov.cn/,primaire,texte reglementaire officiel,eleve,2026-07-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Stanford Digital Economy Lab,https://digitaleconomy.stanford.edu/,primaire,communique officiel institution academique,eleve,2026-07-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+The Washington Post,https://www.washingtonpost.com/,presse generaliste,presse generaliste reconnue,eleve,2026-07-16,
+South China Morning Post,https://www.scmp.com/,presse specialisee,presse regionale reconnue (Asie),moyen-eleve,2026-07-16,
+Yahoo Finance,https://finance.yahoo.com/,presse specialisee,presse economique/financiere,moyen,2026-07-16,
+Journal of Drug Delivery Science and Technology (Elsevier),https://www.sciencedirect.com/journal/journal-of-drug-delivery-science-and-technology,primaire,revue a comite de lecture,eleve,2026-07-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Technology Networks,https://www.technologynetworks.com/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-16,couverture parfois derivee du communique de l'institution - pas toujours pleinement independante
+Geophysical Research Letters (AGU/Wiley),https://agupubs.onlinelibrary.wiley.com/journal/19448007,primaire,revue a comite de lecture,eleve,2026-07-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Eos (American Geophysical Union),https://eos.org/,presse specialisee,revue editoriale d'une societe savante,eleve,2026-07-16,
+Genome Medicine (Springer Nature / BMC),https://genomemedicine.biomedcentral.com/,primaire,revue a comite de lecture,eleve,2026-07-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Current Issues in Molecular Biology (MDPI),https://www.mdpi.com/journal/cimb,primaire,revue a comite de lecture,moyen,2026-07-16,pratiques editoriales de MDPI critiquees pour certains titres - a mentionner par prudence
