@@ -18,3 +18,17 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Thinking Machines Lab,https://thinkingmachines.ai/news/,primaire,communique officiel entreprise,eleve,2026-07-17,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+VentureBeat,https://venturebeat.com/,presse specialisee,presse tech,moyen-eleve,2026-07-17,
+Hugging Face,https://huggingface.co/blog/,primaire,communique officiel entreprise (auto-divulgation d'incident),moyen,2026-07-17,fetch direct bloque (403) - aucune source de presse independante specialisee identifiee pour l'incident du 2026-07-16 - a traiter avec prudence
+BusinessWire,https://www.businesswire.com/,primaire,plateforme de communiques officiels d'entreprises,eleve,2026-07-17,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Departement du Commerce des Etats-Unis,https://www.commerce.gov/news/press-releases/,primaire,communique officiel gouvernemental,eleve,2026-07-17,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Microagi,https://www.microagi.ai/articles/,primaire,communique officiel entreprise,eleve,2026-07-17,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Sifted,https://sifted.eu/,presse specialisee,presse tech europeenne (startups),moyen-eleve,2026-07-17,
+Semafor,https://www.semafor.com/,presse specialisee,presse generaliste/tech,moyen-eleve,2026-07-17,
+UPI,https://www.upi.com/,presse generaliste,agence de presse,moyen-eleve,2026-07-17,
+Absci Corp (GlobeNewswire),https://www.globenewswire.com/,primaire,communique officiel entreprise,eleve,2026-07-17,fetch direct bloque dans l'environnement (403) - donnees d'essai clinique de phase 1 non evaluees par les pairs
+Fortune,https://fortune.com/,presse specialisee,presse economique,eleve,2026-07-17,
+Vesuvius Challenge (scrollprize.org),https://scrollprize.org/,primaire,projet de recherche / prepublication,moyen-eleve,2026-07-17,fetch direct bloque (403) - resultats non evalues par les pairs (prepublication arXiv) - validation par concours/communaute ouverte
+CNN,https://www.cnn.com/,presse generaliste,presse generaliste,eleve,2026-07-17,
+Hospimedica,https://www.hospimedica.com/,presse specialisee,presse medicale specialisee,moyen,2026-07-17,
