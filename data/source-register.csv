@@ -18,3 +18,16 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Anthropic (news),https://www.anthropic.com/news/,primaire,communique officiel entreprise,eleve,2026-07-28,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Hugging Face (blog),https://huggingface.co/blog/,primaire,communique officiel entreprise,eleve,2026-07-28,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Hugging Face (model hub),https://huggingface.co/,primaire,depot de modele / documentation technique,eleve,2026-07-28,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+NVIDIA Newsroom,https://nvidianews.nvidia.com/,primaire,communique officiel entreprise,eleve,2026-07-28,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Maison-Blanche (OSTP),https://www.whitehouse.gov/releases/,primaire,communique officiel institutionnel,eleve,2026-07-28,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Science (AAAS),https://www.science.org/,primaire,revue a comite de lecture,eleve,2026-07-28,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+arXiv,https://arxiv.org/,primaire,serveur de prepublication (non evalue par les pairs),moyen,2026-07-28,prepublications a signaler explicitement comme non evaluees par les pairs - fetch direct bloque (403)
+Universite de Nagoya (news),https://en.nagoya-u.ac.jp/news/,primaire,communique officiel institut de recherche,eleve,2026-07-28,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Universite de Cambridge (CST),https://www.cst.cam.ac.uk/,primaire,communique officiel institut de recherche,eleve,2026-07-28,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Stanford Report,https://news.stanford.edu/,primaire,communique officiel institutionnel,eleve,2026-07-28,
+Axios,https://www.axios.com/,presse specialisee,presse economique/tech,moyen-eleve,2026-07-28,
+NBC News,https://www.nbcnews.com/,presse generaliste,presse generaliste,moyen-eleve,2026-07-28,
+Unite.AI,https://www.unite.ai/,presse specialisee,presse tech specialisee IA,moyen,2026-07-28,
