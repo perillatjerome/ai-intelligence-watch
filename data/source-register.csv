@@ -18,3 +18,20 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+EUR-Lex,https://eur-lex.europa.eu/,primaire,texte reglementaire officiel de l'UE,eleve,2026-07-29,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Hunton Andrews Kurth (blog juridique),https://www.hunton.com/privacy-and-cybersecurity-law-blog/,presse specialisee,analyse juridique cabinet d'avocats,eleve,2026-07-29,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Blog officiel Model Context Protocol,https://blog.modelcontextprotocol.io/,primaire,communique technique officiel,eleve,2026-07-29,fetch direct reussi
+Blog technique AWS,https://aws.amazon.com/blogs/machine-learning/,primaire,communique officiel entreprise,eleve,2026-07-29,
+Hugging Face (depots de modeles),https://huggingface.co/,primaire,depot de poids de modele,eleve,2026-07-29,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Tom's Hardware,https://www.tomshardware.com/,presse specialisee,presse tech,moyen-eleve,2026-07-29,
+Forbes,https://www.forbes.com/,presse generaliste,presse economique generaliste,moyen,2026-07-29,
+Cognizant Newsroom,https://news.cognizant.com/,primaire,communique officiel entreprise,eleve,2026-07-29,fetch direct reussi
+Investing.com,https://www.investing.com/,presse specialisee,presse financiere,moyen,2026-07-29,
+arXiv,https://arxiv.org/,primaire,depot de prepublication scientifique,eleve,2026-07-29,fetch direct reussi
+Fortune,https://fortune.com/,presse generaliste,presse economique generaliste,moyen-eleve,2026-07-29,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Fast Company,https://www.fastcompany.com/,presse generaliste,presse economique generaliste,moyen,2026-07-29,
+The Conversation,https://theconversation.com/,presse specialisee,analyse universitaire/journalistique,eleve,2026-07-29,
+John D. Cook (blog),https://www.johndcook.com/,presse specialisee,blog d'expert independant (mathematicien),moyen,2026-07-29,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Broad Institute (communiques),https://www.broadinstitute.org/news/,primaire,communique officiel institut de recherche,eleve,2026-07-29,
+idw-online,https://idw-online.de/,primaire,plateforme de communiques officiels d'institutions de recherche allemandes,eleve,2026-07-29,
+AACR / Cancer Discovery,https://aacrjournals.org/,primaire,revue a comite de lecture,eleve,2026-07-29,fetch direct bloque dans l'environnement (403) - verifie via recherche web
