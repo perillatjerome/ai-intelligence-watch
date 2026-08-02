@@ -18,3 +18,14 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Anthropic (news/research),https://www.anthropic.com/,primaire,communique officiel entreprise,eleve,2026-08-02,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Commission europeenne (presscorner),https://ec.europa.eu/commission/presscorner/,primaire,communique officiel institutionnel,eleve,2026-08-02,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Google DeepMind (blog),https://deepmind.google/blog/,primaire,communique officiel entreprise,eleve,2026-08-02,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+TechCrunch,https://techcrunch.com/,presse specialisee,presse tech,moyen-eleve,2026-08-02,
+Bloomberg,https://www.bloomberg.com/,presse specialisee,presse economique,eleve,2026-08-02,deja enregistre le 2026-07-13 - reconfirme
+Nature Communications,https://www.nature.com/ncomms/,primaire,revue a comite de lecture,eleve,2026-08-02,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+npj Climate and Atmospheric Science (Nature),https://www.nature.com/npjclimatsci/,primaire,revue a comite de lecture,eleve,2026-08-02,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Northwestern University (news),https://news.northwestern.edu/,primaire,communique officiel institution de recherche,eleve,2026-08-02,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Cryptography Engineering (blog Matthew Green),https://blog.cryptographyengineering.com/,presse specialisee,analyse d'expert independant,eleve,2026-08-02,cryptographe independant non affilie a Anthropic
+Tom's Hardware,https://www.tomshardware.com/,presse specialisee,presse tech,moyen-eleve,2026-08-02,
+The Hacker News,https://thehackernews.com/,presse specialisee,presse specialisee cybersecurite,moyen-eleve,2026-08-02,
