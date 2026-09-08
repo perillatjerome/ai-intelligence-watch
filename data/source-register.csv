@@ -18,3 +18,12 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+NVIDIA (blog),https://blogs.nvidia.com/,primaire,communique officiel entreprise,eleve,2026-09-08,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Figure AI (news),https://www.figure.ai/news/,primaire,communique officiel entreprise,eleve,2026-09-08,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+GitHub Changelog,https://github.blog/changelog/,primaire,documentation/changelog officiel entreprise,eleve,2026-09-08,fetch direct bloque dans l'environnement (403) - aucune source independante identifiee pour l'annonce Agent Merge
+Google DeepMind (blog),https://blog.google/innovation-and-ai/models-and-research/google-deepmind/,primaire,communique officiel entreprise,eleve,2026-09-08,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Helmholtz Munich,https://www.helmholtz-munich.de/en/newsroom/,primaire,communique officiel institut de recherche,eleve,2026-09-08,meme institution que les auteurs de l'etude - ne constitue pas une source independante
+Princeton Plasma Physics Laboratory (PPPL),https://www.pppl.gov/news/,primaire,communique officiel institut de recherche,eleve,2026-09-08,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Universite de Vienne (physique),https://physik.univie.ac.at/en/news/,primaire,communique officiel institut de recherche,eleve,2026-09-08,meme institution que l'auteur principal - ne constitue pas une source independante
+9to5Google,https://9to5google.com/,presse specialisee,presse tech,moyen-eleve,2026-09-08,
+Unite.AI,https://www.unite.ai/,presse specialisee,presse tech specialisee IA,moyen,2026-09-08,
