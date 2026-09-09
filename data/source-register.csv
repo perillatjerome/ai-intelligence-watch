@@ -18,3 +18,13 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Fortune,https://fortune.com/,presse specialisee,presse economique/tech,moyen-eleve,2026-09-09,fetch direct bloque dans l'environnement - verifie via recherche web
+South China Morning Post,https://www.scmp.com/,presse specialisee,presse generaliste Hong Kong,moyen,2026-09-09,independance vis a vis du gouvernement chinois debattue - a traiter avec prudence sur les sujets Chine
+Bureau d'information du Conseil des affaires d'Etat chinois (SCIO),http://english.scio.gov.cn/,primaire,communique officiel gouvernemental,moyen,2026-09-09,source gouvernementale - chiffres non audites de maniere independante
+Commission europeenne (Digital Strategy / AI Office),https://digital-strategy.ec.europa.eu/,primaire,communique et declarations officielles institutionnelles,eleve,2026-09-09,
+Anthropic (news),https://www.anthropic.com/news/,primaire,communique officiel entreprise,eleve,2026-09-09,fetch direct bloque dans l'environnement - verifie via recherche web
+The Innovation (Cell Press),https://www.cell.com/the-innovation/,primaire,revue a comite de lecture,eleve,2026-09-09,fetch direct bloque dans l'environnement - verifie via recherche web
+Boyce Thompson Institute,https://btiscience.org/,primaire,communique officiel institut de recherche,eleve,2026-09-09,
+News-Medical,https://www.news-medical.net/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-09-09,
+Mirage News,https://www.miragenews.com/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-09-09,
+PubMed/PMC (NLM/NIH),https://pubmed.ncbi.nlm.nih.gov/,primaire,indexation scientifique institutionnelle,eleve,2026-09-09,indexation uniquement - ne constitue pas une confirmation croisee journalistique independante
