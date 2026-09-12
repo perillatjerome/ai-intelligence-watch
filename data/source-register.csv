@@ -18,3 +18,13 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Anthropic (news),https://www.anthropic.com/,primaire,communique officiel entreprise,eleve,2026-09-12,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Sakana AI (news),https://sakana.ai/,primaire,communique officiel entreprise,eleve,2026-09-12,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Bureau du gouverneur de Californie,https://www.gov.ca.gov/,primaire,communique officiel institutionnel,eleve,2026-09-12,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+PR Newswire,https://www.prnewswire.com/,primaire,plateforme de diffusion de communiques d'entreprise,moyen,2026-09-12,diffuse le communique tel quel - pas une verification independante
+InfoWorld,https://www.infoworld.com/,presse specialisee,presse tech,moyen-eleve,2026-09-12,
+TechNode Global,https://technode.global/,presse specialisee,presse tech (Asie),moyen,2026-09-12,
+MarkTechPost,https://www.marktechpost.com/,presse specialisee,presse tech IA,moyen,2026-09-12,
+Quanta Magazine,https://www.quantamagazine.org/,presse specialisee,presse scientifique (mathematiques/physique),eleve,2026-09-12,
+Live Science,https://www.livescience.com/,presse specialisee,presse scientifique grand public,moyen,2026-09-12,
+Medical Xpress,https://medicalxpress.com/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-09-12,
