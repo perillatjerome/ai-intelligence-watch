@@ -18,3 +18,14 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Sakana AI (blog),https://sakana.ai/,primaire,communique officiel entreprise,eleve,2026-09-14,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+The Information,https://www.theinformation.com/,presse specialisee,journalisme d'investigation tech (acces payant),eleve,2026-09-14,non consulte directement (paywall) - relaye par plusieurs sources secondaires convergentes
+GitHub Changelog,https://github.blog/changelog/,primaire,documentation/communique officiel produit,eleve,2026-09-14,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Qualcomm (PRNewswire / SEC 8-K),https://www.prnewswire.com/,primaire,communique officiel entreprise depose SEC,eleve,2026-09-14,
+Bloomberg,https://www.bloomberg.com/,presse specialisee,presse economique,eleve,2026-09-14,
+KED Global,https://www.kedglobal.com/,presse specialisee,presse economique coreenne,moyen,2026-09-14,
+Seoul Economic Daily,https://en.sedaily.com/,presse specialisee,presse economique coreenne,moyen,2026-09-14,
+The Innovation (Cell Press),https://www.cell.com/the-innovation/,primaire,revue a comite de lecture,eleve,2026-09-14,
+Nature (s41586-026-10898-6 et s41586-026-11005-5),https://www.nature.com/,primaire,revue a comite de lecture,eleve,2026-09-14,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+News-Medical.net,https://www.news-medical.net/,presse specialisee,presse scientifique,moyen,2026-09-14,
+Scientific American,https://www.scientificamerican.com/,presse specialisee,presse scientifique grand public,eleve,2026-09-14,
