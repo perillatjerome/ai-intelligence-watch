@@ -18,3 +18,12 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Agility Robotics,https://www.agilityrobotics.com/,primaire,communique officiel entreprise (diffuse via PR Newswire),eleve,2026-09-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Harvey,https://www.harvey.ai/,primaire,communique officiel entreprise,eleve,2026-09-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+GitHub,https://github.blog/,primaire,changelog officiel entreprise,eleve,2026-09-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+NVIDIA (blog),https://blogs.nvidia.com/,primaire,communique officiel entreprise,eleve,2026-09-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Chan Zuckerberg Initiative,https://chanzuckerberg.com/,primaire,communique officiel organisation de recherche,eleve,2026-09-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+arXiv,https://arxiv.org/,primaire,serveur de prepublication (non evalue par les pairs),eleve,2026-09-16,fetch direct bloque dans l'environnement (403) - verifie via recherche web ; prepublication non evaluee par les pairs
+Astrobiology.com,https://astrobiology.com/,presse specialisee,presse scientifique specialisee,moyen,2026-09-16,
+Morrison Foerster,https://www.mofo.com/,presse specialisee,analyse juridique de cabinet d'avocats,moyen-eleve,2026-09-16,
+Unite.AI,https://www.unite.ai/,presse specialisee,presse tech specialisee IA,moyen,2026-09-16,
