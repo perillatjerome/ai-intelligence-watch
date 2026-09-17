@@ -18,3 +18,17 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Dario Amodei (essai personnel),https://darioamodei.com/,primaire,billet personnel dirigeant d'entreprise,eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Google (blog / DeepMind),https://blog.google/ ; https://deepmind.google/,primaire,communique officiel entreprise,eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Hugging Face (depots de modeles),https://huggingface.co/,primaire,depot de code / poids de modele,moyen-eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - aucune supervision editoriale du contenu des depots - verifie via recherche web
+Agility Robotics (news),https://www.agilityrobotics.com/,primaire,communique officiel entreprise,eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Gouverneur de Californie (gov.ca.gov),https://www.gov.ca.gov/,primaire,communique officiel institutionnel,eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED, confirme aussi par test direct) - verifie via recherche web
+Princeton Plasma Physics Laboratory (PPPL),https://www.pppl.gov/,primaire,communique officiel institut de recherche (DOE),eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Cell Press / The Innovation,https://www.cell.com/the-innovation/,primaire,revue a comite de lecture,eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Cambridge Core (Advances in Archaeological Practice),https://www.cambridge.org/core/,primaire,revue a comite de lecture,eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Helmholtz Munich,https://www.helmholtz-munich.de/,primaire,communique officiel institut de recherche,eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - communique de l'institution des auteurs - verifie via recherche web
+Axios,https://www.axios.com/,presse specialisee,presse generaliste/tech,moyen-eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED)
+Forbes,https://www.forbes.com/,presse generaliste,presse economique generaliste,moyen-eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED)
+MLex,https://www.mlex.com/,presse specialisee,presse juridique/reglementaire specialisee,eleve,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED)
+9to5Google,https://9to5google.com/,presse specialisee,presse tech specialisee produits Google,moyen,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED)
+Pandaily,https://pandaily.com/,presse specialisee,presse tech specialisee Chine,moyen,2026-09-17,fetch direct bloque dans l'environnement (EGRESS_BLOCKED)
