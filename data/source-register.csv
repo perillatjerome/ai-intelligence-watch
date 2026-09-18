@@ -18,3 +18,19 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Anthropic (Claude),https://claude.com/blog/,primaire,communique officiel entreprise,eleve,2026-09-18,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Sakana AI,https://sakana.ai/,primaire,communique officiel entreprise,eleve,2026-09-18,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+ugo Inc.,https://ugo.plus/information/,primaire,communique officiel entreprise,moyen,2026-09-18,fetch direct bloque - aucune reprise par un media generaliste international identifiee a ce jour
+Apheris,https://www.apheris.com/resources/,primaire,communique technique d'entreprise,moyen,2026-09-18,fetch direct bloque - resultats non publies dans une revue a ce stade
+Oak Ridge National Laboratory,https://www.ornl.gov/news/,primaire,communique officiel institut de recherche,eleve,2026-09-18,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Google Research,https://research.google/blog/,primaire,communique officiel entreprise/laboratoire de recherche,eleve,2026-09-18,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+HHMI / Janelia,https://www.janelia.org/news/,primaire,communique officiel institut de recherche,eleve,2026-09-18,fetch direct bloque - partenaire du meme projet collaboratif que la source principale citee
+bioRxiv,https://www.biorxiv.org/,primaire,depot de prepublication,moyen,2026-09-18,prepublication non evaluee par les pairs par definition
+Oxford Academic / MNRAS,https://academic.oup.com/mnras/,primaire,revue a comite de lecture,eleve,2026-09-18,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+ACS Nano (ACS Publications),https://pubs.acs.org/,primaire,revue a comite de lecture,eleve,2026-09-18,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Bloomberg,https://www.bloomberg.com/,presse specialisee,presse economique,eleve,2026-09-18,acces payant - contenu reconstruit via extraits de recherche
+Qz,https://qz.com/,presse specialisee,presse economique/tech,moyen,2026-09-18,
+Yahoo Tech,https://tech.yahoo.com/,presse specialisee,presse tech,moyen,2026-09-18,
+MarkTechPost,https://www.marktechpost.com/,presse specialisee,presse specialisee IA,moyen,2026-09-18,
+ITmedia (blog),https://blogs.itmedia.co.jp/,presse specialisee,presse technique japonaise specialisee,moyen,2026-09-18,couverture limitee a la presse japonaise specialisee - pas de reprise generaliste internationale identifiee
+PRNewswire,https://www.prnewswire.com/news-releases/,primaire,plateforme de communiques de presse d'entreprises,moyen,2026-09-18,communique d'entreprise - ne constitue pas une source independante
