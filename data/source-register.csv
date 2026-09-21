@@ -18,3 +18,20 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+StepFun (platform docs),https://platform.stepfun.ai/,primaire,documentation officielle editeur,eleve,2026-09-21,verifie via recherche web
+Pandaily,https://pandaily.com/,presse specialisee,presse tech Chine,moyen,2026-09-21,
+Google DeepMind (blog),https://deepmind.google/blog/,primaire,communique officiel entreprise,eleve,2026-09-21,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Axios,https://www.axios.com/,presse specialisee,presse economique/tech,moyen-eleve,2026-09-21,
+Unite.AI,https://www.unite.ai/,presse specialisee,presse tech IA,moyen,2026-09-21,
+Anthropic (news),https://www.anthropic.com/news,primaire,communique officiel entreprise,eleve,2026-09-21,fetch direct bloque dans l'environnement (403) - source utilisee via presse tierce
+IANS,https://ianslive.in/,presse generaliste,agence de presse economique,moyen,2026-09-21,
+The Korea Times,https://www.koreatimes.co.kr/,presse generaliste,presse economique,moyen,2026-09-21,
+Agence Europe,https://agenceurope.eu/,presse specialisee,agence de presse affaires europeennes,moyen-eleve,2026-09-21,
+Commission europeenne (digital strategy),https://digital-strategy.ec.europa.eu/,primaire,communique officiel institutionnel,eleve,2026-09-21,fetch direct non verifie dans cet environnement
+Cell Press / The Innovation,https://www.cell.com/the-innovation/,primaire,revue a comite de lecture,eleve,2026-09-21,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Universite de Manchester (communiques),https://www.manchester.ac.uk/about/news/,primaire,communique officiel institution de recherche,eleve,2026-09-21,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Nature Biotechnology,https://www.nature.com/nbt/,primaire,revue a comite de lecture,eleve,2026-09-21,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+St. Jude Children's Research Hospital (news),https://www.stjude.org/media-resources/news-releases.html,primaire,communique officiel institution de recherche,eleve,2026-09-21,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Princeton Plasma Physics Laboratory (news),https://www.pppl.gov/news/,primaire,communique officiel laboratoire national,eleve,2026-09-21,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+American Nuclear Society / Nuclear Newswire,https://www.ans.org/news/,presse specialisee,presse specialisee energie nucleaire,moyen-eleve,2026-09-21,
+MIT Technology Review,https://www.technologyreview.com/,presse specialisee,presse tech,eleve,2026-09-21,
