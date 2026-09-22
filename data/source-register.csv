@@ -18,3 +18,18 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+CNN,https://www.cnn.com/,presse generaliste,presse generaliste,moyen-eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Independent International Scientific Panel on AI (ONU),https://www.un.org/independent-international-scientific-panel-ai/,primaire,organe scientifique institutionnel multilateral,eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+StepFun,https://platform.stepfun.ai/,primaire,documentation officielle entreprise,moyen-eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Pandaily,https://pandaily.com/,presse specialisee,presse tech Chine,moyen,2026-09-22,
+TechNode,https://technode.com/,presse specialisee,presse tech Chine,moyen,2026-09-22,
+South China Morning Post,https://www.scmp.com/,presse generaliste,presse generaliste Asie,moyen-eleve,2026-09-22,
+Cohere (blog officiel),https://cohere.com/blog/,primaire,communique officiel entreprise,eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+SiliconANGLE,https://siliconangle.com/,presse specialisee,presse tech,moyen,2026-09-22,
+MIT News,https://news.mit.edu/,primaire,communique officiel institution de recherche,eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Stanford Medicine (news),https://med.stanford.edu/news/,primaire,communique officiel institution de recherche,eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+VentureBeat,https://venturebeat.com/,presse specialisee,presse tech,moyen,2026-09-22,titre d'un article a nuancer - voir rapport 2026-09-22
+Cornell Chronicle,https://news.cornell.edu/,primaire,communique officiel institution de recherche,eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Rockefeller University Press (Journal of Cell Biology),https://rupress.org/jcb/,primaire,revue a comite de lecture,eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
+Technology Networks,https://www.technologynetworks.com/,presse specialisee,presse scientifique specialisee,moyen,2026-09-22,
+PPPL (Princeton Plasma Physics Laboratory),https://www.pppl.gov/,primaire,communique officiel institut de recherche,eleve,2026-09-22,fetch direct bloque dans l'environnement (EGRESS_BLOCKED) - verifie via recherche web
