@@ -18,3 +18,15 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+VentureBeat,https://venturebeat.com/,presse specialisee,presse tech,moyen-eleve,2026-09-23,
+SiliconANGLE,https://siliconangle.com/,presse specialisee,presse tech,moyen,2026-09-23,
+Security Council Report (What's In Blue),https://www.securitycouncilreport.org/,primaire,suivi independant des travaux du Conseil de securite de l'ONU,eleve,2026-09-23,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Google DeepMind (blog),https://deepmind.google/blog/,primaire,communique officiel laboratoire de recherche,eleve,2026-09-23,
+Xiaomi MiMo,https://mimo.mi.com/,primaire,communique officiel entreprise,eleve,2026-09-23,
+Verda,https://verda.com/,primaire,communique officiel entreprise,eleve,2026-09-23,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+JACS Au (American Chemical Society),https://pubs.acs.org/journal/jaaucr,primaire,revue a comite de lecture,eleve,2026-09-23,
+Terence Tao (blog personnel),https://terrytao.wordpress.com/,primaire,source d'un organisateur direct de la competition SAIR,eleve,2026-09-23,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Scientific American,https://www.scientificamerican.com/,presse specialisee,presse scientifique generaliste,eleve,2026-09-23,fetch direct bloque dans l'environnement (403) - verifie via recherche web
+Superpower Daily,https://superpowerdaily.com/,presse specialisee,presse tech,moyen,2026-09-23,relaie une citation officielle nominative de la Commission europeenne
+Medical Xpress,https://medicalxpress.com/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-09-23,
+SciTechDaily,https://scitechdaily.com/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-09-23,reprend le meme communique source que ScienceDaily - pas une verification pleinement independante
