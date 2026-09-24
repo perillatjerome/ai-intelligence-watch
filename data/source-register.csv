@@ -18,3 +18,15 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Anthropic (news),https://www.anthropic.com/news/,primaire,communique officiel entreprise,eleve,2026-09-24,fetch direct accessible dans l'environnement
+ONU - Meetings Coverage and Press Releases,https://press.un.org/,primaire,communique officiel institutionnel,eleve,2026-09-24,fetch direct bloque dans l'environnement (proxy egress) - verifie via recherche web
+Intrinsic (blog),https://www.intrinsic.ai/blog/,primaire,communique officiel entreprise,eleve,2026-09-24,fetch direct bloque dans l'environnement (proxy egress) - verifie via recherche web
+Meta Newsroom,https://about.fb.com/news/,primaire,communique officiel entreprise,eleve,2026-09-24,fetch direct bloque dans l'environnement (proxy egress) - verifie via recherche web
+GlobeNewswire,https://www.globenewswire.com/,primaire,diffuseur de communiques officiels d'entreprise,moyen-eleve,2026-09-24,
+Monthly Notices of the Royal Astronomical Society (Oxford Academic),https://academic.oup.com/mnras/,primaire,revue a comite de lecture,eleve,2026-09-24,fetch direct bloque dans l'environnement (proxy egress) - verifie via recherche web
+MIT News,https://news.mit.edu/,primaire,communique officiel institutionnel,eleve,2026-09-24,
+Chan Zuckerberg Biohub,https://biohub.org/,primaire,communique officiel institut de recherche,eleve,2026-09-24,
+Al Jazeera,https://www.aljazeera.com/,presse specialisee,presse generaliste internationale,moyen-eleve,2026-09-24,
+News-Medical.net,https://www.news-medical.net/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-09-24,
+CNN,https://www.cnn.com/,presse specialisee,presse generaliste,moyen-eleve,2026-09-24,
+SiliconANGLE,https://siliconangle.com/,presse specialisee,presse tech,moyen,2026-09-24,
