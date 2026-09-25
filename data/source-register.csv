@@ -18,3 +18,17 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+xAI (news),https://x.ai/news/,primaire,communique officiel entreprise,eleve,2026-09-25,
+Amazon (about),https://www.aboutamazon.com/news/,primaire,communique officiel entreprise,eleve,2026-09-25,
+ABC News (Australie),https://www.abc.net.au/news/,presse generaliste,radiodiffuseur public,eleve,2026-09-25,rapporte des declarations officielles orales - aucun communique ecrit primaire identifie sur cet incident
+Nations unies (press.un.org),https://press.un.org/,primaire,communique officiel institutionnel,eleve,2026-09-25,fetch direct non verifie depuis cet environnement - verifie via recherche web et recoupement presse
+Island (press),https://www.island.io/press/,primaire,communique officiel entreprise,eleve,2026-09-25,
+New York University (news),https://www.nyu.edu/about/news-publications/,primaire,communique officiel universite,eleve,2026-09-25,
+Anthropic (news),https://www.anthropic.com/news/,primaire,communique officiel entreprise,eleve,2026-09-25,source non independante lorsque l'annonce porte sur les propres resultats de recherche d'Anthropic
+News-Medical,https://www.news-medical.net/,presse specialisee,presse scientifique/medicale,moyen,2026-09-25,
+MIT News,https://news.mit.edu/,primaire,communique officiel universite,eleve,2026-09-25,
+GeekWire,https://www.geekwire.com/,presse specialisee,presse tech,moyen-eleve,2026-09-25,
+Yahoo Tech,https://tech.yahoo.com/,presse generaliste,presse tech grand public,moyen,2026-09-25,
+Al Jazeera,https://www.aljazeera.com/,presse generaliste,presse internationale,eleve,2026-09-25,
+CNN,https://www.cnn.com/,presse generaliste,presse internationale,eleve,2026-09-25,
+The Quantum Insider,https://thequantuminsider.com/,presse specialisee,presse scientifique specialisee (technologies quantiques),moyen,2026-09-25,
