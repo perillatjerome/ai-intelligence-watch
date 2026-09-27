@@ -18,3 +18,15 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+OpenAI (rapports de mesalignement),https://alignment.openai.com/misalignment-reports/,primaire,rapport officiel de securite,eleve,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
+Akamai,https://www.akamai.com/newsroom/press-release/,primaire,communique officiel entreprise,eleve,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
+Microsoft,https://blogs.microsoft.com/blog/,primaire,communique officiel entreprise,eleve,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
+Google Cloud,https://cloud.google.com/blog/,primaire,communique officiel entreprise,eleve,2026-09-27,verifie par acces direct
+TechNode,https://technode.com/,presse specialisee,presse tech specialisee Chine,moyen,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
+Anthropic,https://www.anthropic.com/news/,primaire,communique officiel entreprise,eleve,2026-09-27,verifie par acces direct - resultat scientifique auto-rapporte par l'entreprise elle-meme
+Nature,https://www.nature.com/,primaire,revue a comite de lecture,eleve,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
+NYU News,https://www.nyu.edu/about/news-publications/news/,primaire,communique officiel institution de recherche,eleve,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
+EMBL,https://www.embl.org/news/,primaire,communique officiel institut de recherche,eleve,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
+Fortune,https://fortune.com/,presse specialisee,presse economique/tech,moyen-eleve,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
+TechCrunch,https://techcrunch.com/,presse specialisee,presse tech,moyen-eleve,2026-09-27,
+CNBC,https://www.cnbc.com/,presse specialisee,presse economique/tech,moyen-eleve,2026-09-27,fetch direct bloque (EGRESS_BLOCKED) dans l'environnement - verifie via recherche web
