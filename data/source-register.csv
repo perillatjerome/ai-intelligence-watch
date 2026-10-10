@@ -18,3 +18,8 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Google Cloud blog,https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/,primaire,communique officiel entreprise,eleve,2026-10-10,page identifiee par recherche - WebFetch indisponible (DNS)
+Anthropic Research,https://anthropic.com/research/,primaire,billet de recherche entreprise,eleve,2026-10-10,affirmation de l'editeur - WebFetch indisponible (DNS)
+TechCrunch,https://techcrunch.com/,presse specialisee,media technologique reconnu,eleve,2026-10-10,verifie via recherche web
+Quanta Magazine,https://quantamagazine.org/,presse specialisee,media scientifique reconnu,eleve,2026-10-10,verifie via recherche web
+VPS Ranking,https://vpsranking.com/,presse secondaire,agregateur,faible,2026-10-10,utilise uniquement comme recoupement faible
