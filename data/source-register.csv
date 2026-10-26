@@ -18,3 +18,7 @@ ScienceDaily,https://www.sciencedaily.com/,presse specialisee,presse scientifiqu
 EurekAlert!,https://www.eurekalert.org/,primaire,plateforme de communiques officiels d'institutions de recherche,eleve,2026-07-13,
 phys.org,https://phys.org/,presse specialisee,presse scientifique (agrege communiques de recherche),moyen,2026-07-13,
 Science Media Centre,https://www.sciencemediacentre.org/,presse specialisee,reactions d'experts independants,eleve,2026-07-13,
+Anthropic (news),https://www.anthropic.com/news,primaire,communique officiel entreprise,eleve,2026-10-26,lecture directe reussie
+TechCrunch,https://techcrunch.com/,presse specialisee,presse technologique,moyen,2026-10-26,fetch direct bloque - verifie via recherche web
+Science Media Centre Espagne,https://sciencemediacentre.es/,presse specialisee,reactions d'experts independants,eleve,2026-10-26,fetch direct bloque - verifie via recherche web
+IISc,https://www.iisc.ac.in/,primaire,communique institution de recherche,eleve,2026-10-26,fetch direct non tente
